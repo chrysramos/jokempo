@@ -9,3 +9,7 @@
 	font-family: 'Bitter', serif;
 	color: var(--color-base-light);
 }
+
+.simple-action.-dark:hover {
+	color: var(--color-base);
+}

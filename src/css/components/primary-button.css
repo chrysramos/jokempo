@@ -2,6 +2,7 @@
 	background-color: var(--color-second);
 	text-decoration: none;
 	color: var(--color-primary);
+	border: 2px solid #fff;
 	border-radius: 4px;
 	font-family: 'Comfortaa', sans-serif;
 }
@@ -10,4 +11,10 @@
 	color: var(--color-base);
 	font-family: 'Bitter', serif;
 	font-weight: bold;
+}
+
+.primary-button:hover {
+	background-color: var(--color-primary);
+	border: 2px solid #333;
+	color: var(--color-base);
 }
